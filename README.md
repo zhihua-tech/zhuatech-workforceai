@@ -1,5 +1,7 @@
 # 知华智能劳动力排班平台（WorkforceAI）
 
+[简体中文](README.md) | [English](README.en.md)
+
 [知华科技官网](https://www.zhuatech.cn/) · 上海如静知华信息科技有限公司 · `cn.zhuatech.workforceai`
 
 WorkforceAI 面向门店、客服、仓储、交付和制造现场，把需求预测、人员可用性、技能矩阵、周工时与连续班次转化为可解释班表建议。
