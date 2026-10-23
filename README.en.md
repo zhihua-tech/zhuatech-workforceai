@@ -1,5 +1,9 @@
 [简体中文](README.md) | **English**
 
+## Functional update: Shift overlap and rest-gap validation
+
+Detects shift overlaps and adjacent rest-gap shortages per employee without rescheduling staff or making legal compliance judgments. Signed-in users can edit inputs and export real computed results. See [API, examples and limitations](docs/AI_OPERATIONS_UPGRADE_20261023.md). No external model calls or automatic business changes; existing licensing and contacts remain unchanged.
+
 # ZhuaTech Workforceai
 
 > A source-available enterprise project by [ZhuaTech](https://www.zhuatech.cn/) for human resources and workforce operations.

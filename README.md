@@ -1,5 +1,9 @@
 # 知华智能劳动力排班平台（WorkforceAI）
 
+## 本次功能更新：排班重叠与休息间隔核验
+
+逐员工核对排班时间重叠及相邻班次休息间隔，输出冲突工单和分钟数，不自动调班或作劳动合规结论。 登录后从「业务计算工具」使用，支持校验与完整结果导出。详见[算法口径、接口和测试说明](docs/AI_OPERATIONS_UPGRADE_20261023.md)。
+
 [简体中文](README.md) | [English](README.en.md)
 
 [知华科技官网](https://www.zhuatech.cn/) · 上海如静知华信息科技有限公司 · `cn.zhuatech.workforceai`
