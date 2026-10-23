@@ -1,0 +1,62 @@
+[
+  {
+    "patch": {},
+    "expected": {
+      "decision": "HOLD",
+      "minuteGap": "#1000",
+      "extraWorkersNeeded": "#3"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "maximumExtra": "3"
+    },
+    "expected": {
+      "decision": "REVIEW"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "tasks": "400"
+    },
+    "expected": {
+      "decision": "PASS",
+      "extraWorkersNeeded": "#0"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "breakMinutes": "480"
+    },
+    "expected": {},
+    "error": true
+  },
+  {
+    "patch": {
+      "reservedMinutes": "4201"
+    },
+    "expected": {},
+    "error": true
+  },
+  {
+    "patch": {
+      "tasks": "442"
+    },
+    "expected": {
+      "extraWorkersNeeded": "#1"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "tasks": "443"
+    },
+    "expected": {
+      "extraWorkersNeeded": "#2"
+    },
+    "error": false
+  }
+]
